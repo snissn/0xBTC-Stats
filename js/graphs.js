@@ -673,7 +673,7 @@ function generateHashrateAndBlocktimeGraph(eth, target_cv_obj, era_cv_obj, token
             //type: 'logarithmic',  /* hard to read */
             scaleLabel: {
               display: true,
-              labelString: 'Total Supply (0xBitcoin)',
+              labelString: 'Total Supply (0xLitecoin)',
               fontColor: 'rgb(255, 152, 0)',
             },
             gridLines: {

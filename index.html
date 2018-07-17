@@ -48,8 +48,8 @@ Attributions:
     <link rel="stylesheet" type="text/css" href="css/ionicons.css">
     <link rel="stylesheet" type="text/css" href="css/tipr-corso.css">
 
-    <title>0xBitcoin Statistics</title>
-    <meta name="descripton" content="Live statistics for 0xBitcoin - the mined bitcoin-like token for Ethereum.">
+    <title>0xLitecoin Statistics</title>
+    <meta name="descripton" content="Live statistics for 0xLitecoin - the mined bitcoin-like token for Ethereum.">
     <meta name="viewport" content="width=600">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -84,8 +84,8 @@ Attributions:
     <div class="container">
       <div class="row">
         <div class="column">
-          <img class="top-logo" alt="0xBitcoin Logo" src="img/0xBTC_Orange-40px.png" height=40 width=40 />
-          <h1>0xBitcoin Token Statistics</h1>
+          <img class="top-logo" alt="0xLitecoin Logo" src="img/0xBTC_Orange-40px.png" height=40 width=40 />
+          <h1>0xLitecoin Token Statistics</h1>
         </div>
       </div>
       <div class="row">
@@ -260,8 +260,8 @@ Attributions:
                 </a> by minerjoe78, mikers, and others</li>
                 <!--
                 <li><a href="https://docs.google.com/spreadsheets/d/1lbNjXetgN0_CJP-jOVkVr4pvwn_sivbYjNyaU1KbnwQ/">
-                  0xBitcoin GPU Speed/Benchmarks
-                </a> by the 0xBitcoin community </li>
+                  0xLitecoin GPU Speed/Benchmarks
+                </a> by the 0xLitecoin community </li>
                 -->
               </ul>
             </div>
@@ -302,7 +302,7 @@ Attributions:
             Data fetched at:
             <span id="LastUpdatedTime">00:00:00</span>
             <div style="font-size:0.875em;">
-              0xBitcoin Stats
+              0xLitecoin Stats
               <span id="footerversion">
                 v0.0.0
               </span>
@@ -360,19 +360,19 @@ Attributions:
           $('#row-statistics').show(); // may not need this
           $('#row-miners').show(); // may not need this
           $('#row-blocks').show(); // may not need this
-          //$(document).attr("title", "0xBitcoin Statistics");
+          //$(document).attr("title", "0xLitecoin Statistics");
           el('#statistics').innerHTML = '';
           updateAndDisplayAllStats();
         }else if(searchParams.get('page') == 'miningcalculator') {
           log('MININGCALCULATOR selected');
-          $(document).attr("title", "Mining Calculator - 0xBitcoin Statistics");
+          $(document).attr("title", "Mining Calculator - 0xLitecoin Statistics");
           $("#row-miningcalculator").show();
           loadAllStats();
         }else if(searchParams.get('page') == 'graphs') {
           log('GRAPHS selected');
           let days = 60;
           let points = 60;
-          $(document).attr("title", "Graphs - 0xBitcoin Statistics");
+          $(document).attr("title", "Graphs - 0xLitecoin Statistics");
           if(searchParams.get('days')) {
             days = searchParams.get('days');
           }

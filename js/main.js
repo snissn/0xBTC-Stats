@@ -8,7 +8,7 @@ function addToURL(value){
 
 const version = "v0.1.0";
 
-log('0xBitcoin Stats', version);
+log('0xLitecoin Stats', version);
 el('#footerversion').innerHTML = version;
 
 
